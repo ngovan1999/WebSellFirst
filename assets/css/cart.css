@@ -1,0 +1,90 @@
+.shopping-cart{
+    padding: 40px 0;
+    background-color: #ededed;
+}
+
+.shopping-cart>label{
+    text-align: center;
+    display: block;
+    margin-bottom: 24px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.cart-product-information{
+    padding: 8px;
+    position: relative;
+    border: 1px solid #ddd;
+}
+.cart-product-information img{
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.cart-product-information .detail{
+    position: absolute;
+    top: 23px;
+    left: 108px;
+}
+.cart-product .remove-product{
+    border: none;
+    border: 1px solid #ddd;
+    position: relative;
+}
+.cart-product .remove-product button{
+    border: none;
+    border: 1px solid #ddd;
+    background-color: red;
+    color: #fff;
+    padding: 8px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+}
+.cart-product .remove-product button:hover{
+    background-color: rgb(106, 240, 173);
+    color: #000;
+}
+.cart-product-cost{
+    padding: 8px;
+    border: 1px solid #ddd;
+}
+.cart-product-cost>input{
+    width: 40px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    border: 1px solid black;
+    outline: none;
+}
+.order-product{
+    color: #fff;
+    font-size: 20px;
+    padding: 20px 0;
+    border: none;
+    background-color: rgba(255, 0, 0, 0.658);
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+.order-product:hover{
+    background-color: red;
+}
+.buy-product{
+    color: #000;
+    font-size: 20px;
+    padding: 20px 0;
+    border: none;
+    background-color: #d6d6d6cb;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+.buy-product:hover{
+    background-color: violet;
+}
+.total-price{
+    color: #000;
+    font-weight: bold;
+    padding: 20px 0;
+}

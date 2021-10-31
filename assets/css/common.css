@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Roboto:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Mulish:wght@300&family=Roboto:wght@300&display=swap");
+:root {
+  --primary-color: #c0392b;
+  --main-color: #de231a;
+  --white-color: #ffffff;
+  --black-color: #252a2b;
+  --font-text: "Inter", sans-serif;
+  --nav-font: "Mulish", sans-serif;
+  --bg1 : #9b59b6;
+  --bg2: #3498db;
+  --text: #26ade4;
+}
+
+html {
+  font-size: 62.5%;
+  line-height: 1.6rem;
+}
+
+.mt-8 {
+  margin-right: 8px;
+}
+* {
+  font-family: var(--font-text);
+  box-sizing: border-box;
+}
+.uppercase {
+  text-transform: uppercase;
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

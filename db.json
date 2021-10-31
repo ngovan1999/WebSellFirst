@@ -1,0 +1,340 @@
+{
+  "products" : [
+      {
+          "id": 1,
+          "name": "EBH34",
+          "Image": "/assets/images/EBH34.jpg",
+          "des": "Balo nữ thời trang cao cấp ELLY – EBH34 trắng",
+          "delcost": "1,399,000 đ",
+          "cost": 699000,
+          "status": "sale"
+        },
+        {
+          "id": 2,
+          "name": "EGTM10",
+          "Image": "/assets/images/EGTM10.jpg",
+          "des": "Giày nam da thật ELLY HOMME – EGTM10",
+          "delcost": "2,199,000 đ",
+          "cost": 1599000,
+          "status": "sale"
+        },
+        {
+          "id": 3,
+          "name": "EGTM11",
+          "Image": "/assets/images/EGTM11.jpg",
+          "des": "Giày nam da thật ELLY HOMME – EGTM11",
+          "delcost": "2,300,000 đ",
+          "cost": 1699000,
+          "status": "sale"
+        },
+        {
+          "id": 4,
+          "name": "EGTM13",
+          "Image": "/assets/images/EGTM13.jpg",
+          "des": "Giày nam da thật ELLY HOMME – EGTM13",
+          "delcost": "1,199,000đ đ",
+          "cost": 599000,
+          "status": "sale"
+        },
+        {
+          "id": 5,
+          "name": "EGTM7",
+          "Image": "/assets/images/EGTM7.jpg",
+          "des": "Giày nam da thật ELLY HOMME – EGTM7",
+          "delcost": "2,500,000đ",
+          "cost": 2399000,
+          "status": "sale"
+        },
+        {
+          "id": 6,
+          "name": "EGTM8",
+          "Image": "/assets/images/EGTM8.jpg",
+          "des": "Giày nam da thật ELLY HOMME – EGTM7",
+          "delcost": "2,500,000đ",
+          "cost": 2399000,
+          "status": "sale"
+        },
+        {
+          "id": 7,
+          "name": "EGT104",
+          "Image": "/assets/images/EGT104.jpg",
+          "des": "Giày nữ da thật ELLY- EGT104",
+          "delcost": "2,000,000đ",
+          "cost":1399000,
+          "status": "sale"
+        },
+        {
+          "id": 8,
+          "name": "EK101",
+          "Image": "/assets/images/EK101.jpg",
+          "des": "Kính mắt nữ thời trang cao cấp ELLY – EK101",
+          "delcost": "999,000 đ",
+          "cost": 499000,
+          "status": "sale"
+        },
+        {
+          "id": 9,
+          "name": "EC4",
+          "Image": "/assets/images/EC4.jpg",
+          "des": "Túi clutch nữ cao cấp da thật ELLY – EC4",
+          "delcost": "1799,000",
+          "cost": 899000,
+          "status": "sale"
+        },
+        {
+          "id": 10,
+          "name": "ET54",
+          "Image": "/assets/images/ET54.jpg",
+          "des": "Túi xách nữ cao cấp da thật ELLY – ET54",
+          "delcost": "1,199,000 đ",
+          "cost": 599000,
+          "status": "sale"
+        },
+        {
+          "id": 11,
+          "name": "ET82",
+          "Image": "/assets/images/ET82.jpg",
+          "des": "Túi xách nữ thời trang cao cấp ELLY- EL21",
+          "delcost": "1,199,000 đ",
+          "cost": 1499000,
+          "status": "sale"
+        },
+        {
+          "id": 12,
+          "name": "ET143",
+          "Image": "/assets/images/EL143.jpg",
+          "des": "Túi xách nữ thời trang cao cấp ELLY – EL143",
+          "delcost": "1,199,000 đ",
+          "cost": 1799000,
+          "status": "like"
+        },
+        {
+          "id": 13,
+          "name": "EL21",
+          "Image": "/assets/images/EL21.jpg",
+          "des": "Túi xách nữ thời trang cao cấp ELLY – EL21",
+          "delcost": "1,199,000 đ",
+          "cost": 1599000,
+          "status": "new"
+        },
+        {
+          "id": 14,
+          "name": "EL47",
+          "Image": "/assets/images/EL47.jpg",
+          "des": "Túi xách nữ thời trang cao cấp ELLY – EL47",
+          "delcost": "",
+          "cost": 2599000,
+          "status": "new"
+        },
+        {
+          "id": 15,
+          "name": "EL160",
+          "Image": "/assets/images/EL160.jpg",
+          "des": "Túi xách nữ thời trang cao cấp ELLY- EL160",
+          "delcost": "",
+          "cost": 1499000,
+          "status": "new"
+        },
+        {
+          "id": 16,
+          "name": "EL164",
+          "Image": "/assets/images/EL164.jpg",
+          "des": "Túi xách nữ thời trang cao cấp ELLY- EL164",
+          "delcost": "",
+          "cost": 699000,
+          "status": "new"
+        },
+        {
+          "id": 17,
+          "name": "EL165",
+          "Image": "/assets/images/EL165.jpg",
+          "des": "Túi xách nữ thời trang cao cấp ELLY- EL165",
+          "delcost": "",
+          "cost": 599000,
+          "status": "new"
+        },
+        {
+          "id": 18,
+          "name": "EL167",
+          "Image": "/assets/images/EL167.jpg",
+          "des": "Túi xách nữ thời trang cao cấp ELLY- EL167",
+          "delcost": "",
+          "cost": 1399000,
+          "status": "new"
+        },
+        {
+          "id": 19,
+          "name": "EL173",
+          "Image": "/assets/images/EL173.jpg",
+          "des": "Túi xách nữ thời trang cao cấp ELLY- EL173",
+          "delcost": "",
+          "cost": 899000,
+          "status": "new"
+        },
+        {
+          "id": 20,
+          "name": "EG57",
+          "Image": "/assets/images/EG57.jpg",
+          "des": "Giày nữ thời trang cao cấp ELLY – EG57",
+          "delcost": "",
+          "cost": 1299000,
+          "status": "new"
+        },
+        {
+          "id": 21,
+          "name": "EB20",
+          "Image": "/assets/images/EB20.jpg",
+          "des": "Balo nữ cao cấp da thật ELLY – EB20",
+          "delcost": "",
+          "cost": 699000,
+          "status": "new"
+        },
+        {
+          "id": 21,
+          "name": "EB7",
+          "Image": "/assets/images/EB7.jpg",
+          "des": "Balo nữ cao cấp da thật ELLY – EB7",
+          "delcost": "",
+          "cost": 899000,
+          "status": "new"
+        },
+        {
+          "id": 23,
+          "name": "EG52",
+          "Image": "/assets/images/EG52.jpg",
+          "des": "Giày nữ thời trang cao cấp ELLY – EG52",
+          "delcost": "",
+          "cost": 1899000,
+          "status": "new"
+        },
+        {
+          "id": 24,
+          "name": "EGM8",
+          "Image": "/assets/images/EGM8.jpg",
+          "des": "Giày nữ thời trang cao cấp ELLY – EGM8",
+          "delcost": "",
+          "cost": 1199000,
+          "status": "like"
+        },
+        {
+          "id": 25,
+          "name": "EG51",
+          "Image": "/assets/images/EG51.jpg",
+          "des": "Giày nữ thời trang cao cấp ELLY – EG51",
+          "delcost": "",
+          "cost": 1599000,
+          "status": "like"
+        },
+        {
+          "id": 26,
+          "name": "ET63",
+          "Image": "/assets/images/ET63.jpg",
+          "des": "Túi xách nữ cao cấp da thật ELLY – ET63",
+          "delcost": "",
+          "cost": 1499000,
+          "status": "like"
+        },
+        {
+          "id": 27,
+          "name": "EBH38",
+          "Image": "/assets/images/EBH38.jpg",
+          "des": "Balo nữ thời trang cao cấp ELLY – EBH38",
+          "delcost": "2,199,000",
+          "cost": 1599000,
+          "status": "like"
+        },
+        {
+          "id": 28,
+          "name": "EGM87",
+          "Image": "/assets/images/EGM87.jpg",
+          "des": "Giày nữ cao cấp ELLY – EGM87",
+          "delcost": "",
+          "cost": 599000,
+          "status": "like"
+        },
+        {
+          "id": 29,
+          "name": "ET61",
+          "Image": "/assets/images/ET61.jpg",
+          "des": "Túi xách nữ cao cấp da thật ELLY – ET61",
+          "delcost": "2,000,000",
+          "cost": 1599000,
+          "status": "like"
+        },
+        {
+          "id": 30,
+          "name": "EL2",
+          "Image": "/assets/images/EL21.jpg",
+          "des": "Túi xách nữ cao cấp da thật ELLY – EL21",
+          "delcost": "",
+          "cost": 799000,
+          "status": "like"
+        }
+  ],
+  "news" : [
+    {
+      "id": 1,
+      "Image": "/assets/images/news/luxe.jpg",
+      "title": "ELLY chính thức ra mắt BST “Luxe De Paris” trên toàn hệ thống",
+      "des": "Sau hơn 2 năm kể từ BST Beauté de Paris, nhà mốt ELLY mới lại [...]"
+    },
+    {
+      "id": 2,
+      "Image": "/assets/images/news/sale.jpg",
+      "title": "Khai trương ELLY Thanh Hóa – Sale Up To 50% – Tất cả sản phẩm!",
+      "des": "Nằm trong hoạch định chiến lược mở rộng thị trường của ELLY, tiếp nối chuỗi [...]"
+    },
+    {
+      "id": 3,
+      "Image": "/assets/images/news/happygril.jpg",
+      "title": "HAPPY VIETNAMESE WOMEN’S DAY – ĐỒNG GIÁ TỪ 199K – TRÊN TOÀN HỆ THỐNG",
+      "des": "Gửi yêu thương đến người phụ nữ của bạn bằng một món quà sang trọng, [...]"
+    },
+    {
+      "id": 4,
+      "Image": "/assets/images/news/199k.jpg",
+      "title": "Khai trương ELLY Quy Nhơn – Đồng Giá Chỉ Từ 199K",
+      "des": "Chào đón Showroom ELLY Quy Nhơn chính thức mở bán từ ngày 10/10/2021 với không [...]"
+    },
+    {
+      "id": 5,
+      "Image": "/assets/images/news/voucher.jpg",
+      "title": "Mua hàng ELLY tặng ngay voucher Rimmy trị giá tối đa 5.000.000đ",
+      "des": "Phụ kiện đẹp không thể thiếu váy đầm xinh! Ưu đãi đặc biệt hấp dẫn [...]"
+    }
+  ],
+  "introduce" : [
+    {
+      "id": 1,
+      "Image": "/assets/images/intro.jpg",
+      "title": "ELLY – DẪN ĐẦU XU HƯỚNG THỜI TRANG",
+      "des": "Được sáng tạo bởi Công ty CP Thời trang Quốc tế Glamor, ELLY là thương hiệu phụ kiện thời trang cao cấp hàng đầu Việt Nam với các dòng sản phẩm chủ đạo gồm túi xách, giày dép, kính mắt, dây lưng dành cho cả nam và nữ. Phong cách thời trang Pháp là nét đặc trưng trong các thiết kế của ELLY, với sự kết hợp hoàn hảo của các yếu tố cổ điển và hiện đại, sang trọng và phóng khoáng, đơn giản, tiện dụng nhưng lại hết sức tinh tế. Các sản phẩm của ELLY từ lâu đã hiện diện trong tủ đồ của những người yêu thời trang như một lựa chọn hàng đầu cho bất kỳ sự kiện nào trong cuộc sống hàng ngày, đi làm, đi chơi, gặp gỡ đối tác hay các buổi tiệc trang trọng. <br>ELLY hiện đang sở hữu hệ thống hơn 60 showroom sang trọng và đẳng cấp cùng kênh thương mại điện tử được đầu tư bài bản, phục vụ hàng triệu lượt khách hàng trên toàn Việt Nam. Tầm nhìn của ELLY trong những năm tới là đạt mốc 100 showroom tại Việt Nam, đồng thời mở rộng hoạt động tại các nước Đông Nam Á như Singapore, Thái Lan, Malaysia, Indonesia, Philippines và xa hơn nữa là chinh phục thị trường và người tiêu dùng Châu Á."
+    }
+  ],
+  "post" : [
+    {
+      "title": "Báo LAO ĐỘNG",
+      "link": "https://laodong.vn/thong-tin-doanh-nghiep/elly-vao-top-100-thuong-hieu-dan-dau-viet-nam-nam-2020-871955.ldo"
+    },
+    {
+      "title": "Báo DÂN TRÍ:",
+      "link": "https://dantri.com.vn/thoi-trang/thoi-trang-elly-lot-top-100-thuong-hieu-san-pham-dich-vu-hang-dau-viet-nam-2017-20171012171606708.htm"
+    },
+    {
+      "title": "Báo VNEXPRESS:",
+      "link": "https://vnexpress.net/giai-tri/thoi-trang-elly-theo-duoi-phong-cach-phap-4037731.html"
+    },
+    {
+      "title": "Báo THANH NIÊN:",
+      "link": "https://thanhnien.vn/tai-chinh-kinh-doanh/doanh-nghiep/thuong-hieu-elly-duoc-vinh-danh-trong-le-cong-bo-thuong-hieu-chat-luong-chau-a-2019-1168884.html"
+    },
+    {
+      "title": "Báo TIỀN PHONG:",
+      "link": "https://www.tienphong.vn/kinh-te-doanh-nghiep/elly-duoc-ton-vinh-top-100-thuong-hieu-dan-dau-viet-nam-2020-1781138.tpo"
+    },
+    {
+      "title": "Báo ĐÀI TRUYỀN HÌNH VIỆT NAM VTV:",
+      "link": "https://vtv.vn/goc-doanh-nghiep/thoi-trang-elly-lot-top-100-thuong-hieu-san-pham-dich-vu-hang-dau-viet-nam-2017-20171013105226138.htm"
+    }
+  ]
+}

@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/css/common.css" />
+    <link rel="stylesheet" href="/assets/css/cart.css">
+    <link rel="stylesheet" href="/assets/css/grid.css" />
+    <link rel="stylesheet" href="/assets/css/style.css" />
+    <link rel="stylesheet" href="/assets/css/responsive.css">
+
+    <link rel="stylesheet" href="/assets/fonts/fontawesome-free-5.15.4-web/css/all.min.css" />
+    <link rel="stylesheet" href="/assets/css/cdnjs/reset.min.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="/assets/js/handle-data.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="app">
+        <!-- --------------------------------header------------------------------------------- -->
+        <div class="header">
+            <!-- --------------------------------navbar------------------------------------------- -->
+            <div class="p-l-r-l p-l-r-m-pro p-l-r-c header-top">
+                <i class="fas fa-bars"></i>
+                <div class="header-top-left">
+                    <a href="">cskh: 0906.636.000</a>
+                    <a href="">-</a>
+                    <a href="">0966.353.000</a>
+                </div>
+                <div class="header-top-right">
+                    <select id="resizing_select">
+                        <option selected>All</option>
+                        <option value="balo">Balo</option>
+                        <option value="bst">Bộ sưu tập</option>
+                        <option value="clutch">Clutch</option>
+                        <option value="giaydep">Giày dép</option>
+                        <option value="khuyenmai">Khuyến mại</option>
+                        <option value="kinhmat">Kính mắt</option>
+                        <option value=pknam"">Phụ kiện nam</option>
+                        <option value="pknu">Phụ kiện nữ</option>
+                        <option value="spbc">Sản phẩm bán chạy</option>
+                        <option value="spt">Sản phẩm tặng</option>
+                        <option value="tl">Thắt lưng</option>
+                        <option value="tx">Túi xách</option>
+                        <option value="vd">Ví da</option>
+                    </select>
+                    <select id="width_tmp_select">
+                        <option id="width_tmp_option"></option>
+                    </select>
+                    <div class="header-top-right-search">
+                        <input type="search" placeholder="Tìm kiếm..." />
+                        <div class="header-top-right-search-icon">
+                            <i class="fas fa-search"></i>
+                        </div>
+                    </div>
+                    <div class="header-top-right-icon-link">
+                        <a href="/template/login.html"><i class="fas fa-user"></i></a>
+                    </div>
+                </div>
+            </div>
+            <!-- --------------------------------menu------------------------------------------- -->
+            <div class="p-l-r-l p-l-r-m-pro p-l-r-c navbar">
+                <img src="/assets/images/logo-black.svg" alt="" class="logo-shop">
+                <ul class="header-nav uppercase">
+                    <li class="header-nav-item">
+                        <div class="header-navbar-item-search">
+                            <select id="resizing_select">
+                                <option selected>All</option>
+                                <option value="balo">Balo</option>
+                                <option value="bst">Bộ sưu tập</option>
+                                <option value="clutch">Clutch</option>
+                                <option value="giaydep">Giày dép</option>
+                                <option value="khuyenmai">Khuyến mại</option>
+                                <option value="kinhmat">Kính mắt</option>
+                                <option value=pknam"">Phụ kiện nam</option>
+                                <option value="pknu">Phụ kiện nữ</option>
+                                <option value="spbc">Sản phẩm bán chạy</option>
+                                <option value="spt">Sản phẩm tặng</option>
+                                <option value="tl">Thắt lưng</option>
+                                <option value="tx">Túi xách</option>
+                                <option value="vd">Ví da</option>
+                            </select>
+                            <select id="width_tmp_select">
+                                <option id="width_tmp_option"></option>
+                            </select>
+                            <div class="header-top-right-search">
+                                <input type="search" placeholder="Tìm kiếm..." />
+                                <div class="header-top-right-search-icon">
+                                    <i class="fas fa-search"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="header-nav-item"><a href="/template/app.html">trang chủ</a></li>
+                    <li class="header-nav-item"><a href="">hàng mới</a></li>
+                    <li class="header-nav-item"><a href="">bán chạy</a></li>
+                    <li class="header-nav-item"><a href="">sản phẩm</a></li>
+                    <li class="header-nav-item sub-menu-hover-1">
+                        <a href="">nữ<i class="fas fa-chevron-down no-display"></i></a>
+                        <ul class="sub-menu">
+                            <li class="sub-menu-item"><a href="">Túi sách nữ</a></li>
+                            <li class="sub-menu-item"><a href="">Giày dép nữ</a></li>
+                            <li class="sub-menu-item"><a href="">Sandal nữ</a></li>
+                            <li class="sub-menu-item"><a href="">Kính mắt nữ</a></li>
+                            <li class="sub-menu-item"><a href="">Ví da nữ</a></li>
+                            <li class="sub-menu-item"><a href="">Clutch nữ</a></li>
+                            <li class="sub-menu-item"><a href="">Balo nữ</a></li>
+                        </ul>
+                    </li>
+                    <li class="header-nav-item sub-menu-hover-2"><a href="">nam<i
+                                class="fas fa-chevron-down no-display"></i></a>
+                        <ul class="sub-menu">
+                            <li class="sub-menu-item"><a href="">Túi sách nam</a></li>
+                            <li class="sub-menu-item"><a href="">Giày dép nam</a></li>
+                            <li class="sub-menu-item"><a href="">Sandal nam</a></li>
+                            <li class="sub-menu-item"><a href="">Kính mắt nam</a></li>
+                            <li class="sub-menu-item"><a href="">Ví da nam</a></li>
+                            <li class="sub-menu-item"><a href="">Clutch nam</a></li>
+                            <li class="sub-menu-item"><a href="">Balo nam</a></li>
+                        </ul>
+                    </li>
+                    <li class="header-nav-item sub-menu-hover-3"><a href="">bộ sưu tập<i
+                                class="fas fa-chevron-down no-display"></i></a>
+                        <ul class="sub-menu">
+                            <li class="sub-menu-item"><a href="">Fleurs De Paris</a></li>
+                            <li class="sub-menu-item"><a href="">Classique De Paris</a></li>
+                            <li class="sub-menu-item"><a href="">Hommes De Classe</a></li>
+                            <li class="sub-menu-item"><a href="">Beaute Classique</a></li>
+                            <li class="sub-menu-item"><a href="">Lady in Autumn</a></li>
+                            <li class="sub-menu-item"><a href="">Beaute De Paris</a></li>
+                            <li class="sub-menu-item"><a href="">Parisian Chic</a></li>
+                            <li class="sub-menu-item"><a href="">Genuine Leather Wallet</a></li>
+                            <li class="sub-menu-item"><a href="">Fashion Bags</a></li>
+                            <li class="sub-menu-item"><a href="">Genuine Leather Handbags</a></li>
+
+                        </ul>
+                    </li>
+                    <li class="header-nav-item"><a href="">sale</a></li>
+                    <li class="header-nav-item"><a href="">tin tức</a></li>
+                    <li class="header-nav-item"><a href="">video</a></li>
+                    <li class="header-nav-item"><a href="">giới thiệu</a></li>
+                    <li class="header-nav-item"><a href="">hệ thống showroom</a></li>
+                    <i class="fas fa-times"></i>
+                </ul>
+                <div class=""></div>
+            </div>
+        </div>
+        <div class="shopping-cart">
+            <label for="" class="uppercase">giỏ hàng</label>
+            <div class="grid wide">
+                <div class="cart-product">
+                    <div class="row cart-row">
+                        <div class="col l-5 m-6 c-12 cart-product-information">
+                            <img src="/assets/images/vi-nu-cam-tay-cao-cap-da-that-ELLY-EV47-25-1.jpg" alt="">
+                            <div class="detail">
+                                <p>Túi xách nữ cao cấp da thật ELLY – ET54</p>
+                                <p class="cart-price">99000 <u>đ</u></p>
+                            </div>
+                        </div>
+                        <div class="col l-5 m-4 c-8 cart-product-cost">
+                            Số lượng: <input class="cart-quantity-input" type="number" value="1">
+                            <p class="price-item-total"></p>
+                        </div>
+                        <div class="col l-2 m-2 c-4 remove-product">
+                            <button class="btn-danger">Xóa</button>
+                        </div>                       
+                    </div>
+                    <div class="row cart-row">
+                        <div class="col l-5 m-6 c-12 cart-product-information">
+                            <img src="/assets/images/vi-nu-cam-tay-cao-cap-da-that-ELLY-EV47-25-1.jpg" alt="">
+                            <div class="detail">
+                                <p>Túi xách nữ cao cấp da thật ELLY – ET54</p>
+                                <p class="cart-price">99000 <u>đ</u></p>
+                            </div>
+                        </div>
+                        <div class="col l-5 m-4 c-8 cart-product-cost">
+                            Số lượng: <input class="cart-quantity-input" type="number" value="1">
+                            <p class="price-item-total"></p>
+                        </div>
+                        <div class="col l-2 m-2 c-4 remove-product">
+                            <button class="btn-danger">Xóa</button>
+                        </div>                       
+                    </div>
+                    <div class="row cart-row">
+                        <div class="col l-5 m-6 c-12 cart-product-information">
+                            <img src="/assets/images/vi-nu-cam-tay-cao-cap-da-that-ELLY-EV47-25-1.jpg" alt="">
+                            <div class="detail">
+                                <p>Túi xách nữ cao cấp da thật ELLY – ET54</p>
+                                <p class="cart-price">199000 <u>đ</u></p>
+                            </div>
+                        </div>
+                        <div class="col l-5 m-4 c-8 cart-product-cost">
+                            Số lượng: <input class="cart-quantity-input" type="number" value="1">
+                            <p class="price-item-total"></p>
+                        </div>
+                        <div class="col l-2 m-2 c-4 remove-product">
+                            <button class="btn-danger">Xóa</button>
+                        </div>                       
+                    </div>
+                </div>
+                <div style="margin: 24px 0;" class="row">
+                    <button class="col l-4 m-4 c-12 order-product uppercase">
+                        tiến hành đặt hàng
+                    </button>
+                    <button class="col l-4 m-4 c-12 buy-product uppercase">
+                        mua thêm sản phảm
+                    </button>
+                    <span style="text-align: center;" class="col l-4 m-4 c-12 total-price"></span>
+                </div>
+            </div>
+        </div>
+        <div class="about-us">
+            <div class="about-us-content">
+              <h2>ELLY – LEADING THE TREND</h2>
+              <p>ELLY là sự kết hợp hoàn hảo giữa phong cách thời trang Pháp quyến rũ, sang trọng, hiện đại và phong cách thời trang Á Đông thanh lịch.</p>
+              <a href="" class="uppercase">about us</a>
+            </div>
+          </div>
+          <div class="row footer">
+            <div class="col l-12 c-12 m-12 content-footer">
+              <h3 style="margin-bottom: 8px; font-size: 24px;">CÔNG TY CỔ PHẦN THỜI TRANG QUỐC TẾ GLAMOR
+                VPGD: Tầng 8 tòa nhà SANNAM, 78 Duy Tân, Q.Cầu Giấy, Hà Nội.</h3>
+                <p>Số giấy chứng nhận ĐKKD: 0107370211</p>
+                <p>Nơi cấp: Sở Kế hoạch và Đầu tư thành phố Hà Nội</p>
+                <p>Ngày cấp: 24/03/2016</p>
+                <p>Nhượng quyền thương hiệu/ Đặt quà tặng số lượng lớn: 0985.219.048</p>
+                <p class="c-red">TỔNG ĐÀI BÁN HÀNG (08H - 17H): <br>
+                  0906.636.000 - 0966.353.000</p>
+                  <p>Email: cskh@elly.vn</p>
+                  <p>Website: https://elly.vn</p>
+            </div>
+          </div>
+    </div>
+</body>
+<script src="/assets/js/jquery.js"></script>
+<script src="/assets/js/cart.js"></script>
+
+
+</html>
